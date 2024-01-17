@@ -11,37 +11,37 @@ import { BsPersonBoundingBox } from "react-icons/bs";
 const tabItems = [
   {
     id: nanoid(),
-    icon: <IoBusinessSharp className="text-xl max-sm:text-[10px]" />,
-    tabName: "Company",
-    value: "company",
-    tooltip: "Company Projects",
+    icon: <BsPersonBoundingBox className="text-xl max-sm:text-[10px]" />,
+    tabName: "Personal Projects",
+    value: "personal",
+    tooltip: "Personal Projects",
   },
   {
     id: nanoid(),
-    icon: <BsPersonBoundingBox className="text-xl max-sm:text-[10px]" />,
-    tabName: "Personal",
-    value: "personal",
-    tooltip: "Personal Projects",
+    icon: <IoBusinessSharp className="text-xl max-sm:text-[10px]" />,
+    tabName: "Company Projects",
+    value: "company",
+    tooltip: "Company Projects",
   },
 ];
 
 const tabPanelItems = [
   {
     id: nanoid(),
-    projectName: <CompanyProjects />,
-    value: "company",
-    tooltip: "Company Projects",
-  },
-  {
-    id: nanoid(),
     projectName: <PersonalProjects />,
     value: "personal",
     tooltip: "Personal Projects",
   },
+  {
+    id: nanoid(),
+    projectName: <CompanyProjects />,
+    value: "company",
+    tooltip: "Company Projects",
+  },
 ];
 
 const Project = () => {
-  const [value, setValue] = useState("company");
+  const [value, setValue] = useState("personal");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

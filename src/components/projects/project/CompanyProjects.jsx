@@ -26,12 +26,15 @@ const CompanyProjects = () => {
                 <span className="font-semibold font-Poppins mr-1">Role: </span>
                 <span className="text-dark-gray">{item.role}</span>
               </p>
-              <p className="leading-5">
-                <span className="font-semibold font-Poppins mr-1">
-                  Technologies:{" "}
-                </span>
-                <span className="text-dark-gray ">{item.Technologies}</span>
-              </p>
+              {item.Technologies && (
+                <p className="leading-5">
+                  <span className="font-semibold font-Poppins mr-1">
+                    Technologies:{" "}
+                  </span>
+                  <span className="text-dark-gray ">{item.Technologies}</span>
+                </p>
+              )}
+
               <p>
                 <span className="font-semibold font-Poppins mr-1">
                   Duration:

@@ -20,7 +20,7 @@ export const about = {
   img: myPhoto,
   introduction: "Hi, I'm Gyanendra Kumar Software Engineer.",
   description:
-    "I'm an Application Developer specializing in Front-End Development at IBM in India. I'm dedicated to creating immersive user experiences through dynamic UI effects and animations, committed to seamlessly blending creativity with functionality in intuitive interfaces.",
+    "I'm an Application Developer at IBM in India. I'm passionate and enthusiastic for Front-End Development. I am dedicated to creating immersive user experiences through dynamic UI effects and animations, committed to seamlessly blending creativity with functionality in intuitive interfaces.",
 };
 
 export const profile = [
@@ -111,49 +111,77 @@ export const skills = [
 export const companyProject = [
   {
     id: nanoid(),
-    company: "IBM",
-    role: "Application Developer",
-    Technologies:
-      "React.js, Redux/Toolkit, React-Hook-Forms, HTML(JSX), Tailwind CSS, Javascript(ES6), Material UI",
-    duration: "Sep 2022 - Nov 2023",
+    company: "Suntrust",
+    role: "FileNet Developer (Support- DC2 Migration Team)",
+    duration: "June 2023 - 30 Nov 2023",
     location: "Kolkata",
     description: [
-      "Responsible to develop new user interface for client application.",
-      "Created reusable components that were being used in multiple components.",
-      "Wrote test cases to validate the application after completion and uploaded to client tools.",
-      "Collaborated with cross-functional team such as designers team. ",
+      "Responsible to create test cases for FileNet application migration.",
+      "Attaching Test cases to ALM Tool.",
+      "After migration, performing wave validations and taking screenshots.",
+      "Attaching screenshots to ALM as per application test cases.",
+      "Collaborating with different teams to perform test cases validations.",
     ],
   },
   {
     id: nanoid(),
-    company: "IBM",
-    role: "Application Developer",
+    company: "Hertz",
+    role: "FileNet Developer (Prod Support and Dev Support)",
     Technologies: "FileNet, ACCE, WorkPlace, MySQL",
-    duration: "August 2021 - July 2022",
-    location: "Bangalore",
+    duration: "June 2022 - May 2023",
+    location: "Kolkata",
     description: [
       "Responsible to check incidents in Service Now",
-      "Categorize tickets based on issues reported",
-      "Check issues and provide solution to the end users before SLA target",
+      "Categorize tickets based on issues reported.",
+      "Check issues and provide solution to the end users",
+      "Provide solutions before SLA targets",
+      "Tested entire VIR application based on AWS end to end from FileNet VIR application to case manager.",
     ],
   },
   {
     id: nanoid(),
-    company: "IBM",
-    role: "Application Developer",
-    Technologies: "FileNet, ACCE, WorkPlace",
-    duration: "June 2020 - August 2021",
+    company: "JPMC",
+    role: "Application Developer - Non-Prod support (Night-Shift)",
+    duration: "March 2021 - May 2022",
     location: "Bangalore",
     description: [
-      "Ensure the application is up and running as expected",
-      "Responsible forreceiving requestsfrom end-users, analyzing these, and either responding to the end-user with a solution or escalating it to the other IT teams.",
+      "Ensure the application is up and running as expected.",
+      "Responsible for receiving requests from end-users, analyzing these, and either responding to the end-user with a solution or escalating it to the other IT teams.",
       "Dealing with the user issues with already scripted solutions and creating an incident to assign it to other teams.",
       "Providing Technical support for the application users",
+      "* My quick response with solution has been appreciated by Clients.",
+    ],
+  },
+  {
+    id: nanoid(),
+    company: "Westpac Corporation",
+    role: "Application Developer (Prod Support)",
+    duration: "June 2020 - March 2021",
+    location: "Hyderabad",
+    description: [
+      "I was part of ECM L3 support team.",
+      "Supported on multiple incidents.",
+      "Supported on multiple CRQ production deployments.",
     ],
   },
 ];
 
 export const personalProject = [
+  {
+    id: nanoid(),
+    projectName: "E-Commerce",
+    role: "React Developer",
+    Technologies:
+      "React.js,React Form Hook, Tailwind CSS, React Router DOM, Material UI, Framer Motion, React Icons, Firebase, GitHub",
+    description: [
+      "Developed authentication and authorization functionality using React.js, React Hooks, Tailwind CSS, Redux Toolkit, Firebase, React Form Hook.",
+      "Working on Admin dashboard to display graph, add new products, update the products, view and change order status.",
+      "Non-Admin user cannot access admin dashboard",
+      "Currently working on this Project.",
+    ],
+    demo: "https://eccomerce-gyanendra-kumars-projects.vercel.app/",
+    github: "https://github.com/Huski-commando/eccomerce",
+  },
   {
     id: nanoid(),
     projectName: "PortFolio",

@@ -63,7 +63,7 @@ const Contact = () => {
             </div>
             <div>
               <span className="font-semibold">Email: </span>
-              kgyanendra1998@gmail.com
+              gykumar3@in.ibm.com
             </div>
             <Button
               startIcon={<LinkedIn />}
