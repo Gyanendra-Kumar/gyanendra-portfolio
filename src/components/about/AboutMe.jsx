@@ -3,6 +3,7 @@ import { about } from "../../utils/data";
 import { CustomButton } from "../../utils/CustomStyles";
 import Contact from "./Contact";
 import { Download } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
@@ -27,19 +28,24 @@ const AboutMe = () => {
         </div>
 
         <div className="flex gap-8 pt-8 max-xl:flex-col max-lg:justify-center  max-sm:pt-2 max-md:w-3/4 max-lg:w-2/4 max-sm:gap-6 ">
-          <CustomButton
-            variant="contained"
-            startIcon={<Download />}
-            sx={{
-              // wordSpacing: "5px",
-              fontWeight: "600",
-              boxShadow: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff",
-              textTransform: "capitalize",
-              fontSize: "15px",
-            }}
+          <Link
+            to="https://firebasestorage.googleapis.com/v0/b/ecommerce-354ac.appspot.com/o/images%2F1705490314059Gyanendra's%20Resume.pdf?alt=media&token=90e2155a-86af-4616-abd8-e9db5131b6dd"
+            target="_blank"
           >
-            Download Resume
-          </CustomButton>
+            <CustomButton
+              variant="contained"
+              startIcon={<Download />}
+              sx={{
+                // wordSpacing: "5px",
+                fontWeight: "600",
+                boxShadow: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff",
+                textTransform: "capitalize",
+                fontSize: "15px",
+              }}
+            >
+              Download Resume
+            </CustomButton>
+          </Link>
           <Contact />
         </div>
       </section>

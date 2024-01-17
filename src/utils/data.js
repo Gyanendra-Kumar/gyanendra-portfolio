@@ -195,8 +195,8 @@ export const personalProject = [
       "Implemented dialog feature to showcase contacts, certifications and achievements",
       "Data is being fetched dynamically",
     ],
-    demo: "https://gyanendra-portfolio-0112.netlify.app/",
-    github: "https://github.com/Huski-commando/portfolio",
+    demo: "https://gyanendra-ibm-portfolio.netlify.app/",
+    github: "https://github.com/Huski-commando/gyanendra-portfolio",
   },
   {
     id: nanoid(),
